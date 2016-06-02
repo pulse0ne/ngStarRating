@@ -2,7 +2,7 @@
  * Created by tsned on 5/31/16.
  */
 'use strict';
-angular.module('ngStarRating', ['ngMaterial'])
+angular.module('ngStarRating', [])
     .directive('starRating', function () { // this is our read-only rating
         return {
             scope: { starValue: '=ngModel' },
