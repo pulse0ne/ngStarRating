@@ -30,3 +30,9 @@ A star rating/rater directive. It depends/relies on Google's [Material Icons](ht
     color: #5b6273;
   }
   ```
+
+## License
+MIT
+
+## Todo
+- combine the two directives into one with a read-only attribute
