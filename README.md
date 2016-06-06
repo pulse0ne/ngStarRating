@@ -10,16 +10,12 @@ A star rating/rater directive. It depends/relies on Google's [Material Icons](ht
   angular.module('yourApp', ['ngStarRating']);
   ```
 
-  - To use the read-only directive (where `data.rating` refers to the scope's `data.rating` value):
+  - Html:
   
   ```html
   <star-rating ng-model="data.rating" max="5"></star-rating>
-  ```
-  
-  - To use the 'writable' rating (where `rate-action` refers to a callback function in the scope that accepts a number):
-  
-  ```html
-  <star-rater rate-action="submitRating"></star-rater>
+  <!-- OR, for read-only -->
+  <star-rating read-only="true" max="10"></star-rating>
   ```
 
   - To style:
@@ -34,5 +30,3 @@ A star rating/rater directive. It depends/relies on Google's [Material Icons](ht
 ## License
 MIT
 
-## Todo
-- combine the two directives into one with a read-only attribute
